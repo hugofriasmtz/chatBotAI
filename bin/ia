@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+
+<?php
+$app = require __DIR__ . '/../bootstrap.php'; //intancia el Chat con el servicio de IA
+
+$app->run(); // Ejecuta el chat, que permite al usuario interactuar con la IA
